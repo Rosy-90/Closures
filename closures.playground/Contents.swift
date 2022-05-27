@@ -23,4 +23,5 @@ func nonescapingClosure(firstNum: Int, secondNum: Int, action: (Int, Int) -> Voi
     print("Rosy")
 }
 nonescapingClosure(firstNum: 2, secondNum: 3, action: add)
+print("Hello Rosy")
 
