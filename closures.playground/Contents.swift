@@ -21,6 +21,7 @@ escapingClosure(firstNum: 1, secondNum: 2, action: add)
 func nonescapingClosure(firstNum: Int, secondNum: Int, action: (Int, Int) -> Void) {
     action(firstNum, secondNum)
     print("Rosy")
+    print("Inside NOn escaping")
 }
 nonescapingClosure(firstNum: 2, secondNum: 3, action: add)
 
