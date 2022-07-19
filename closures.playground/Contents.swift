@@ -12,7 +12,7 @@ func escapingClosure(firstNum: Int, secondNum: Int, action: @escaping (Int, Int)
     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
         action(firstNum, secondNum)
     }
-    print("Rosy")
+    print("RosyRani")
 }
 escapingClosure(firstNum: 1, secondNum: 2, action: add)
 
